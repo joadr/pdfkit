@@ -1,5 +1,5 @@
 {
-  "name": "pdfkit",
+  "name": "joadr-pdfkit",
   "description": "A PDF generation library for Node.js",
   "keywords": [
     "pdf",
@@ -9,7 +9,7 @@
     "document",
     "vector"
   ],
-  "version": "0.7.1",
+  "version": "0.7.6",
   "homepage": "http://pdfkit.org/",
   "author": {
     "name": "Devon Govett",
@@ -34,8 +34,8 @@
     "blob-stream": "^0.1.2"
   },
   "dependencies": {
-    "png-js": ">=0.1.0",
-    "linebreak": "~0.1.0"
+    "linebreak": "~0.1.0",
+    "png-js": ">=0.1.0"
   },
   "scripts": {
     "prepublish": "make js",
